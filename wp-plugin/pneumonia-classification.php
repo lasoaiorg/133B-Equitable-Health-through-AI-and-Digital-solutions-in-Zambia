@@ -35,7 +35,7 @@ add_action('wp_ajax_pneumonia_classification', function() {
 function handle_pneumonia_classification() {
     error_log('Handle pneumonia classification function called');
 
-    $hf_api_token = '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';
+    $hf_api_token = 'hf_XXXXXXXXXXXXXXXXXXXXXXXXXX';
     $hf_api_url = 'https://api-inference.huggingface.co/models/lxyuan/vit-xray-pneumonia-classification';
 
     if (!isset($_FILES['file'])) {
